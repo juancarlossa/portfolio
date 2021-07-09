@@ -1,0 +1,33 @@
+.accordion 
+  color: #444
+  font-family: $Poppins
+  cursor: pointer
+  padding: 18px
+  width: 60% !important
+  text-align: left
+  border: none
+  outline: none
+  transition: 0.4s
+  padding-left: 3rem
+  button
+    font-size: 20px
+    padding-top: 25px
+    padding-bottom: 25px
+  button:focus
+    box-shadow: none !important
+  button:active, button:focus
+    background-color: transparent !important
+    //color: yellow !important
+
+.accordion-button
+  border-radius: 15px 15px 15px 15px
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Style the accordion panel. Note: hidden by default */
+.panel 
+  padding: 0 18px
+  background-color: white
+  overflow: hidden
+  max-height: 0
+  transition: max-height 0.2s ease-out
+  padding-left: 3rem
